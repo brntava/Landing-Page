@@ -5,11 +5,13 @@
 }
 
 body{
-    background-color:#0000CD;
+    background-color:#000068;
 }
 
 header{
-    padding-top: 15px;
+    box-shadow: 0px 2px 5px;
+    background-color: #000046;
+    padding: 10px;
 }
 
 .container{
@@ -20,13 +22,14 @@ header{
     justify-content: space-between;
 }
 
+/*  */
+
 .logo{
     display: flex;
     align-items: center;
 }
 nav ul{
     display:flex;
-    flex: row;
 }
 nav ul li{
     padding:22px;
@@ -73,11 +76,18 @@ nav ul li:hover{
     width: 200px;
     margin-right: 10px;
     border-radius: 20px;
-    border:1px solid #fff;
-    font-size: 18px;
-    color: #fff;
-    background-color:#0000CD;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #222;
+    background-color:#FFF0F5;
+    box-shadow: 1px 1px 2px #000;
 }
 .buttons input:hover{
     cursor: pointer;
+    background-color: #1C1C1C;
+    color: #fff;
+    transition: 0.3s;
 }
